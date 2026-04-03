@@ -1,0 +1,5 @@
+#!name=iPhone Stock Check
+#!desc=check iPhone stock in every 5 mins.  v20260403
+
+[Script]
+cron "*/5 10-21 * * *" script-path=https://github.com/surge/scripts/stock_check.js, wake-system=1, timeout=10
